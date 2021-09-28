@@ -1,5 +1,6 @@
 :root{
     --bs-dark-rgb: 44,62,80;
+    --bs-success-rgb: 26, 188, 156;
 }
 
 .img-my-style{
@@ -13,3 +14,11 @@
 .list-img-mystyle{
     width: 100%;
 }
+
+
+.btn-primary {
+    color: #fff;
+    background-color: #0d6dfd00;
+    border-color: white;
+}
+
