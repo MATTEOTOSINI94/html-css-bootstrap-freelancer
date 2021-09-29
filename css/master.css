@@ -16,7 +16,7 @@
 
 .btn-primary {
     color: #fff;
-    background-color: #0d6dfd00;
+    background-color: rgb(26, 188, 156);
     border-color: white;
 }
 
@@ -47,4 +47,25 @@
     background-color: honeydew;
     border: 1px solid white;
     width: 100px;
+}
+
+.form-control{
+    border: none;
+    border-bottom: 1px solid grey;
+}
+
+.myform .my-textarea{
+    height: 100px;
+}
+.mystyle-icon{
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 10px 12px
+}
+
+.mystyle-icon1{
+
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 10px 10px
 }
