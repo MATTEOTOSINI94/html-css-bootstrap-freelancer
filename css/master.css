@@ -107,18 +107,24 @@
 .myform .my-textarea{
     height: 100px;
 }
-.mystyle-icon{
+
+.My-box-foot i{
+    display: inline-block;
+    height: 50px;
+    width: 50px;
     border: 1px solid;
     border-radius: 50%;
-    padding: 10px 12px
+    line-height: 50px;
+
 }
 
-.mystyle-icon1{
+
+/* .mystyle-icon1{
 
     border: 1px solid;
     border-radius: 50%;
     padding: 10px 10px
-}
+} */
 .my-Copiright-box{
     background: rgb(9, 63, 117);
     font-size: 10px;
