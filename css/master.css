@@ -49,6 +49,56 @@
     width: 100px;
 }
 
+.lines-style-2{
+    position: relative;
+}
+
+.lines-style-2::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    background-color: honeydew;
+    border: 1.5px solid white;
+    width: 100px;
+
+}
+.lines-style-2::before{
+     content: "";
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    background-color: honeydew;
+    border: 1.5px solid white;
+    width: 100px;
+
+}
+
+.dark-line-style{
+    position: relative;
+}
+
+.dark-line-style::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    background-color: black;
+    border: 1.5px solid black;
+    width: 100px;
+}
+
+.dark-line-style::before{
+      content: "";
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    background-color: black;
+    border: 1.5px solid black;
+    width: 100px;
+}
+
+
 .form-control{
     border: none;
     border-bottom: 1px solid grey;
@@ -68,4 +118,8 @@
     border: 1px solid;
     border-radius: 50%;
     padding: 10px 10px
+}
+.my-Copiright-box{
+    background: rgb(9, 63, 117);
+    font-size: 10px;
 }
